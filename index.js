@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // الصفحة الرئيسية: تعرض iframe مع الوكيل
 app.get('/', (req, res) => {
-  const targetUrl = req.query.url || 'https://animeslayer.to/home';
+  const targetUrl = req.query.url || 'https://anime3rb.com/';
   const proxyUrl = `/proxy?url=${encodeURIComponent(targetUrl)}`;
 
   res.send(`
