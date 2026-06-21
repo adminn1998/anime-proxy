@@ -1,5 +1,5 @@
 {
-  "name": "anime-proxy-vercel",
+  "name": "anime-proxy-final",
   "version": "1.0.0",
   "scripts": {
     "vercel-build": "npm install"
